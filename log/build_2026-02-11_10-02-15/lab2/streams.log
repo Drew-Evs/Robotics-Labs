@@ -1,0 +1,43 @@
+[0.835s] Invoking command in '/uolstore/home/users/sc23s2e/ros2_ws/src/lab2': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/sc23s2e/ros2_ws/build/lab2/prefix_override:/uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab2 build --build-base /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build install --record /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/install.log --single-version-externally-managed
+[0.978s] running egg_info
+[0.978s] creating ../../build/lab2/lab2.egg-info
+[0.980s] writing ../../build/lab2/lab2.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ../../build/lab2/lab2.egg-info/dependency_links.txt
+[0.989s] writing entry points to ../../build/lab2/lab2.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/lab2/lab2.egg-info/requires.txt
+[0.993s] writing top-level names to ../../build/lab2/lab2.egg-info/top_level.txt
+[0.995s] writing manifest file '../../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.002s] reading manifest file '../../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.005s] writing manifest file '../../build/lab2/lab2.egg-info/SOURCES.txt'
+[1.006s] running build
+[1.006s] running build_py
+[1.008s] creating /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build
+[1.008s] creating /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib
+[1.009s] creating /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2
+[1.011s] copying lab2/__init__.py -> /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2
+[1.014s] copying lab2/listener.py -> /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2
+[1.019s] copying lab2/talker.py -> /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2
+[1.024s] running install
+[1.024s] running install_lib
+[1.027s] creating /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2
+[1.028s] copying /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2/__init__.py -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2
+[1.032s] copying /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2/listener.py -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2
+[1.037s] copying /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build/lib/lab2/talker.py -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2
+[1.043s] byte-compiling /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2/__init__.py to __init__.cpython-310.pyc
+[1.048s] byte-compiling /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2/listener.py to listener.cpython-310.pyc
+[1.053s] byte-compiling /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2/talker.py to talker.cpython-310.pyc
+[1.058s] running install_data
+[1.059s] creating /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/ament_index
+[1.060s] creating /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/ament_index/resource_index
+[1.061s] creating /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/ament_index/resource_index/packages
+[1.063s] copying resource/lab2 -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/ament_index/resource_index/packages
+[1.066s] copying package.xml -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/lab2
+[1.071s] creating /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/lab2/launch
+[1.072s] copying launch/chatter.py -> /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/share/lab2/launch
+[1.076s] running install_egg_info
+[1.078s] Copying ../../build/lab2/lab2.egg-info to /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages/lab2-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.140s] Installing listener script to /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/lab2
+[1.143s] Installing talker script to /uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/lab2
+[1.147s] writing list of installed files to '/uolstore/home/users/sc23s2e/ros2_ws/build/lab2/install.log'
+[1.176s] Invoked command in '/uolstore/home/users/sc23s2e/ros2_ws/src/lab2' returned '0': PS1=[COMP3631] Singularity> \w $ PYTHONPATH=/uolstore/home/users/sc23s2e/ros2_ws/build/lab2/prefix_override:/uolstore/home/users/sc23s2e/ros2_ws/install/lab2/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab2 build --build-base /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/build install --record /uolstore/home/users/sc23s2e/ros2_ws/build/lab2/install.log --single-version-externally-managed
